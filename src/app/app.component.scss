@@ -1,0 +1,56 @@
+.master-head {
+  min-height: 100vh;
+  padding-top: 7.5rem;
+  padding-bottom: 5rem;
+  color: #fff;
+  background: #333;
+
+  .container {
+    background: #333;
+  }
+}
+
+.navbar {
+  background: #126e51;
+
+  a {
+      display: block;
+      width: 145px;
+      height: 60px;
+      background: url('../assets/images/logo.png');
+      background-size: contain;
+  }
+}
+
+.highlight {
+  color: #ffdd00;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.btn-outline-light:hover {
+  background-color: #ffde00;
+}
+
+.img-fluid {
+  max-width: 50%;
+}
+
+img {
+  border:1px solid #fff;
+  margin: 5px;
+  transition: all 0.3s;
+
+  &:hover {
+    border:2px solid #ffde00;
+    transform: scale(1.1);
+  }
+}
+
+@media (max-width: 550px){
+  img {
+    margin: 0;
+  }
+}
